@@ -7,7 +7,7 @@ pipeline {
         stage('get code from github') {
             steps {
                 echo 'Pulling...';
-                git branch: 'master',
+                git branch: 'main',
                 url : 'https://github.com/TouMaiga/ExoJenkins.git';
             }
 
